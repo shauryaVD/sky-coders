@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Needs and Wants Tables</title>
+  <link rel="stylesheet" href="project.css">
+  <script src="NeedsWants.js"></script>
+</head>
+<body>
+
+  <h1 style="text-align: center;">Needs Table</h1>
+  <table id="needsTable" border="1" style="margin: 20px auto; border-collapse: collapse; width: 60%;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price Willing to Spend</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td contenteditable="true">Item 1</td>
+        <td contenteditable="true">$0.00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button onclick="addRow('needsTable')">Add Row</button>
+
+  <h1 style="text-align: center;">Wants Table</h1>
+  <table id="wantsTable" border="1" style="margin: 20px auto; border-collapse: collapse; width: 60%;">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Price Willing to Spend</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td contenteditable="true">Item 1</td>
+        <td contenteditable="true">$0.00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button onclick="addRow('wantsTable')">Add Row</button>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project.css">
+  <title> Ideal Budget Calculator</title>
+  <script src="IdealBudget.js"></script>
+</head>
+<body>
+  <h1> Ideal Budget Calculator</h1>
+  <form id="budgetForm">
+    <label for="dairy">Dairy:</label>
+    <input type="number" id="dairy" placeholder="Enter budget for dairy" required>
+
+    <label for="meat">Meat:</label>
+    <input type="number" id="meat" placeholder="Enter budget for meat" required>
+
+    <label for="fruits">Fruits:</label>
+    <input type="number" id="fruits" placeholder="Enter budget for fruits" required>
+
+    <label for="veggies">Veggies:</label>
+    <input type="number" id="veggies" placeholder="Enter budget for veggies" required>
+
+    <label for="bakedGoods">Baked Goods:</label>
+    <input type="number" id="bakedGoods" placeholder="Enter budget for baked goods" required>
+
+    <label for="other">Other:</label>
+    <input type="number" id="other" placeholder="Enter budget for other" required>
+
+    <button type="button" onclick="calculateTotalBudget()">Calculate Total Budget</button>
+  </form>
+
+  <p id="result"></p>
+</body>
+</html>

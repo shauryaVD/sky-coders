@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Stores around me</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <h2>Grocery Store i want to go GoogleMap </h2>
+
+    <button onclick="navigateTo('https://www.google.com/maps/search/walmart/@43.7951902,-79.5588358,13z/data=!3m1!4b1?entry=ttu')">Walmart</button>
+
+    <button onclick="navigateTo('https://www.google.com/maps/search/costco/@43.7952827,-79.5575202,13z/data=!3m1!4b1?entry=ttu')">Costco</button>
+
+    <button onclick="navigateTo('https://www.google.com/maps/search/freshco/@43.7952605,-79.5987213,12z/data=!3m1!4b1?entry=ttu')">Freshco</button>
+
+    <button onclick="navigateTo('https://www.google.com/maps/search/Shoppers+Drug+Mart/@43.7954491,-79.5987215,12z/data=!3m1!4b1?entry=ttu')">Shoppers Drug Mart</button>
+
+    <button onclick="navigateTo('https://www.google.com/maps/search/grocery+store/@43.7956377,-79.5987217,12z/data=!3m1!4b1?entry=ttu')">Other Grocery Stores</button>
+
+    <script>
+        function navigateTo(url) {
+            window.location.href = url;
+        }
+    </script>
+
+</body>
+</html>
